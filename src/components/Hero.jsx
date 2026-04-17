@@ -14,6 +14,8 @@ const terminalLines = [
   '> open_to_work=true',
 ]
 
+const LinkedInLink = "https://www.linkedin.com/posts/bhargav-mule-a99b61262_hello-folks-was-lately-working-on-something-ugcPost-7410936915379642369-KGXT?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAECZVtUB0EmcTKFJ-7ZSDS1lV_tncd7d6ws"
+
 function Btn({ href, children, variant = 'primary', target }) {
   const base = 'inline-flex items-center gap-1.5 font-mono text-[12px] font-medium px-4 py-2 rounded-[6px] transition-all duration-150 no-underline'
   const styles = {
@@ -57,6 +59,13 @@ export default function Hero() {
               Building <span className="text-secondary">high-performance APIs</span> and distributed systems.<br />
               Deep in the stack — Go microservices to bare-metal infra.<br />
               Intern @ Quick Heal · B.Tech CSE @ PCCoE.
+            </p>
+
+            <p className="font-mono text-[12.5px] text-subtle leading-[1.8] max-w-[600px] mb-8 tracking-[-0.01em]">
+              Bonus Tip : All projects are Self Hosted on my own server , do check out how I was able to turn my old PC 
+              into AWS like server.
+              <br />
+               <a href={LinkedInLink} target="_blank" className="text-blue-400"> click here to see</a>
             </p>
 
             <div className="flex gap-3 flex-wrap">
