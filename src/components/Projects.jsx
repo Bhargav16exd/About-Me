@@ -55,7 +55,7 @@ const projects = [
     name: 'Real-Time Text Sharing',
     desc: 'Collaborative editor built from scratch. WebSocket-powered real-time sync with a custom text editor — no third-party editor dependencies.',
     tags: ['WebSockets','Node.js','Custom Editor'],
-    href: 'https://www.spaceshare.cloud/', live: true,
+    href: 'https://spaceshare.bhargavmule.com/', live: true,
   },
   {
     name: 'HTTP Reverse Proxy in Go',
